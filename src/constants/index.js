@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 5, suffix: "+", label: "Years of Experience" },
+  { value: 10, suffix: "+", label: "Satisfied Clients" },
+  { value: 12, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -74,20 +74,21 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Problem Solving",
+    desc: "Using analytical and creative thinking to overcome challenges and deliver effective solutions.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Teamwork",
+    desc: "Collaborating with team members to leverage diverse skills for successful outcomes.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Responsibility",
+    desc: "Embracing accountability and ensuring diligent execution in every project.",
   },
 ];
+
 
 const techStackImgs = [
   {
@@ -147,28 +148,29 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Emmanuel consistently delivered quality work, demonstrating exceptional professionalism and technical skills throughout his assignments. Emmanuel's dedication and commitment ensured that every project surpassed our expectations. We confidently endorse his outstanding performance and work ethic.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Full Stack Developer",
+    date: "Octuber 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Set up and maintain Pixel Streaming to deliver Unreal Engine content to web browsers.",
+      "Develop the web interface for user interaction with streamed 3D content.",
+      "Create server-side logic to handle communication between the web client and Unreal Engine.",
+      "Design and manage databases for storing user and application data.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Emmanuel's contributions to Copycom's graphic design and document services have been impressive. He consistently delivered creative solutions and efficient service to meet client needs.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Graphic Designer",
+    date: "June 2021 - December 2022",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
+      "Performed extensive graphic design and document editing to support client needs.",
+      "Managed document creation, typing, and multi-format printing with precision.",
+      "Provided direct customer service using Microsoft Office Suite, CorelDRAW, and Adobe Photoshop."
+      ],
   },
   {
     review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
